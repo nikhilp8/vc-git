@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  When I am collaborating with others on a project, it is easy for everyone to share their code using the branches 
+  and merge everything especially when we are in different time zones.
+  
