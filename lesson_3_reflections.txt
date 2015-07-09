@@ -1,4 +1,28 @@
 When would you want to use a remote repository rather than keeping all your work local?
   When I am collaborating with others on a project, it is easy for everyone to share their code using the branches 
   and merge everything especially when we are in different time zones.
-  
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	This is a little bit tricky, when we push content we want to combine some files and save it as one commit, so that
+it wont get published before it is ready. But for pulling from the repository I think it is a bit different. It would be
+comfortable if git automatically sync's everything.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	forks- used to clone code of others in git repository, git machines clones for us.
+	clone- when we want to copy code to our working directory in our system.
+	branch- when we want to work on new features, or the team member of our project wants to new code he can do it
+		by creating a branch and make changes. Whenever we think it is necessary we can always merge.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	so that i can know which commit changes added by the other contributor to the git repository are present in my
+local repository.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	It would be difficult especially if working on a big project. However we have to be careful in our changes and keep saving
+the files in the working directory. Effective communication is must if not for github.
+Nothing is easier when compared with how github operates
+Sharing, merging manually would be difficult if two people make same logical changes using different code. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	when i am working in a project where i collaborate with others i cannot directly make changes to the master, so i work
+on a branch instead so that others can checkout the changes
