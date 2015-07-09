@@ -1,3 +1,15 @@
 What happens when you initialize a repository? Why do you need to do it?
 	A .git file is created in the directory. Unless a .git file is present, git cannot
 create new commits in the directory.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	When working on a project, when people add different features to the code, we have to add the
+changes to the original code. So adding branches helps in updating the master code and saving lot of time.
+Diagramatic representation is very helpful when trying to understand the concept. It also gives us an idea
+of changes we make.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	automatic merging is good when there is no ambuiguity in code of the branches i.e when particular
+function or entity is different in both of the branches. If this is not the case it can merge the code
+automatically. As mentioned manual merging comes into effect for the above case. It is always good to
+do it manually in this case as the developer will have a good idea about it.
